@@ -21,7 +21,9 @@ const gamePlane ={
      o.update();
      //usuwanie przeszkody
      if(o.x <= 0 - o.w){
-         obstacles.shift();
+         //obstacles.shift();
+        // console.log(obstacles)
+        o.x = 470;
      }
  }
  
